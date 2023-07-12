@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Peliculas</title>
+</head>
+
+<body>
+  
+
+    <div class="colorfondo">
+        <div class="video-container">
+            <video autoplay loop muted>
+                <source src="./videos/jurasic world.webm" type="video/mp4">
+               
+
+            </video>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="index.html"><img class="logopeli" src="../img/logopeli.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contenedorSeries">Series</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contenedorVideos">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contenedorVideosSeries">Kids</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/pages.html">Ver Peliculas</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="buscadordiv">
+            <input id="inputBusqueda" class="form-control mr-sm-2 buscador" type="search"
+                placeholder="Buscar una película, programa de televisión, persona..." aria-label="Search">
+            <button id="botonBuscar" class="botonBuscar">Buscar</button>
+        </div>
+
+
+
+        <div class="lado"></div>
+
+        <div class="contenedorBusqueda" id="contenedorVideosBusqueda"></div>
+
+
+
+
+        <h2 class="RECOMENDADAS">Lo más popular</h2>
+        <div id="contenedorTendencias" class="contenedorVideos"></div>
+
+        <h2 class="RECOMENDADAS">Recomendando</h2>
+        <div id="contenedorVideos" class="contenedorVideos"></div>
+
+        <h2 class="RECOMENDADAS">Series</h2>
+        <div id="contenedorSeries" class="contenedorVideos"></div>
+
+      
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+
+    <script src="./js/main.js"></script>
+
+
+</body>
+
+</html>
