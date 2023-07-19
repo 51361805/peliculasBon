@@ -568,7 +568,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-document.addEventListener('DOMContentLoaded', function () {
-  var video = document.getElementById('myVideo');
+window.addEventListener('load', function () {
+  const video = document.getElementById('myVideo');
   video.play();
 });
